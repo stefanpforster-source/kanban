@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kanban – Datenschutz</title>
+<style>
+  :root { --bg:#f7f7f5; --fg:#1d1d1f; --muted:#555; --accent:#2f6fde; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1c1c1e; --fg:#ececec; --muted:#a0a0a0; --accent:#7aa7ff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, "Segoe UI", sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:48px 16px; }
+  h1 { margin:0 0 24px; font-size:28px; }
+  h2 { margin:28px 0 8px; font-size:19px; }
+  p, ul { margin:0 0 16px; }
+  .muted { color:var(--muted); }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Datenschutzerklärung für Kanban</h1>
+
+  <h2>Verantwortlich</h2>
+  <p>Der Inhaber des GitHub-Kontos, unter dem diese Seite veröffentlicht ist. Die Anwendung wird ausschließlich
+     von ihm selbst genutzt. Kontakt über die Issues des zugehörigen GitHub-Repositorys.</p>
+
+  <h2>Was Kanban ist</h2>
+  <p>Kanban ist eine private Desktop-Anwendung zur Aufgabenverwaltung. Karten, Termine und Einstellungen werden
+     als Dateien auf den eigenen Rechnern gespeichert. Die Anwendung sendet keine Daten an diese Website.</p>
+
+  <h2>Abgleich mit Google Kalender (optional)</h2>
+  <p>Wird die Verbindung mit Google eingeschaltet, meldet sich Kanban über Google OAuth 2.0 an und fordert nur
+     den Bereich <code>calendar.app.created</code> an. Damit kann Kanban ausschließlich den Kalender „Kanban“
+     anlegen und bearbeiten, den es selbst erstellt hat. Auf andere Kalender und Termine hat Kanban keinen Zugriff.</p>
+  <p>An Google übertragen werden nur Karten, bei denen „Google“ angehakt ist, und von diesen nur:</p>
+  <ul>
+    <li>Titel der Karte</li>
+    <li>Kartentext</li>
+    <li>Datum und Uhrzeit des Termins</li>
+  </ul>
+  <p>Für die Verarbeitung bei Google gilt die
+     <a href="https://policies.google.com/privacy">Datenschutzerklärung von Google</a>.</p>
+
+  <h2>Anmeldedaten</h2>
+  <p>Das Anmelde-Token von Google wird mit der Windows-Datenschutz-API (DPAPI) verschlüsselt auf dem jeweiligen
+     Rechner gespeichert. Es wird nicht weitergegeben. Kanban sieht und speichert kein Google-Passwort.</p>
+
+  <h2>Weitergabe</h2>
+  <p>Außer an Google (nur bei eingeschaltetem Abgleich, wie oben beschrieben) werden keine Daten an Dritte
+     übertragen. Es gibt keine Werbung, kein Tracking und keine Analyse.</p>
+
+  <h2>Zugriff widerrufen und löschen</h2>
+  <p>Der Zugriff lässt sich jederzeit unter
+     <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> entziehen.
+     Wird der Kalender „Kanban“ in Google Kalender gelöscht, sind dort auch alle von Kanban eingetragenen
+     Termine entfernt.</p>
+
+  <h2>Diese Website</h2>
+  <p>Diese Seite wird über GitHub Pages bereitgestellt. GitHub verarbeitet dabei technisch notwendige
+     Zugriffsdaten wie die IP-Adresse, siehe
+     <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzerklärung von GitHub</a>.
+     Die Seite selbst setzt keine Cookies und lädt keine externen Schriften oder Skripte.</p>
+
+  <p class="muted">Stand: November 2026</p>
+</main>
+</body>
+</html>
